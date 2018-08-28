@@ -1,0 +1,6 @@
+Adam Resnick 8/28/18
+Things I learned: 
+
+1) The depth/precision is the number of bits that are used for each pixel. A higher number of bits for the precision, i.e. 24-bit would allow 2^24 colors to be used, which a 8-bit system would allow 2^8 or 256 colors to be used.
+
+2) By using a pipeline architecture, and putting multiple circuit components in series, more data can be processed in each moment (as data is split between the components inside of processed in a single component for longer), increasing the throughput of the system, however, since data will flow through a longer series of components, the latency of the system is reduced.
